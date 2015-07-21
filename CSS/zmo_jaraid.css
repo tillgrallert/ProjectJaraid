@@ -1,0 +1,491 @@
+/* This section imports other CSS files */
+
+/* @import url("pseudoDE.css"); */ 
+
+/* normal content*/
+
+.ja-hidden {
+    display:none;
+    content:none;
+}
+    
+table.ja, th.ja, td.ja, td.ja-no {
+    border:1px solid black;
+}
+table.ja {
+    border-collapse:collapse;
+    padding:0px;
+	position:absolute;
+    left:0px;
+    top:0px;
+}
+thead.ja {
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    font-size:12px; 
+    font-weight:bold; 
+    color:#003366;
+    background-color:#728eab;
+    line-height:16px;
+    padding:0px;
+}
+
+tbody.ja {
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    font-size:11px; 
+    color:#000000; 
+    line-height:13px
+}
+td.ja {
+    padding:4px;
+    vertical-align:top;
+}
+td.ja, th.ja {
+    height:auto;
+}
+td.ja-no {
+    width:25px;
+    text-align:right;
+    vertical-align:top;
+}
+tr.ja:focus {
+    background-color:#dce8f4
+}
+name {
+    font-family:Helvetica, Arial, Verdana, Geneva, sans-serif; 
+    font-size:11px;
+    font-style:italic;
+    font-weight:bold;
+    color:#000000;
+    line-height:13px
+}
+
+/* persName, orgName {
+    font-style:italic;
+}
+placeName {
+    text-decoration:underline;
+}*/
+
+object.ja {
+    width:100%;
+    height:700px;
+    overflow:auto;
+}
+span.ja-known {
+    color:green;
+}
+span.ja-known:hover
+span.ja-hidden {
+    display:block;
+    content:normal;
+    padding: 4px;
+    color: #333;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-color:white;
+    box-shadow: 0px 0px 4px #222;
+}
+span.ja-unknown {
+    color:red;
+}
+
+span.ja-unknown:hover
+span.ja-hidden {
+    display:block;
+    content:normal;
+    padding: 4px;
+    color: #333;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-color:white;
+    box-shadow: 0px 0px 4px #222;
+}
+span.ja-intlink {
+    color:orange;
+}
+
+span.ja-hidden {
+display:none;
+content:none
+}
+
+span.ja-intlink:hover
+span.ja-hidden {
+    display:block;
+    content:normal;
+    padding: 4px;
+    color: #333;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-color:white;
+    box-shadow: 0px 0px 4px #222;
+    border-radius:0px;
+}
+
+p.rubrikh2 {
+    line-height:20px;
+}
+
+/* #fMain {
+    box-shadow: inset 0px 0px 4px #222;
+    border-radius:0px;
+}*/
+div.ja-ta {
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position:relative;
+    top:20px;
+
+    font-size:12px;
+    padding:0px;
+    max-width:100%;
+/*    max-width:512px;*/
+}
+
+div.ja-th {
+    /*position:fixed;
+    top:0px;*/
+    float:left;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    font-size:12px; 
+    font-weight:bold; 
+    color:#003366;
+    border-bottom:3px solid;
+    border-color:#003366;
+    /*background-color:#728eab;*/
+    padding:3px;
+}
+div.ja-tr{
+    clear:both;
+    float:left;
+    width:100%;
+    border-bottom:1px solid;
+    border-color:#003366;
+    padding:3px;
+}
+div.ja-td1{
+    clear:both;
+    float:left;
+    width:12%;
+/*    min-width:50px;
+    max-width:125px; */
+    padding:inherit;
+    word-wrap:break-word;
+    /*word-break:hyphenate;*/
+}
+
+div.ja-td2{
+    position:relative;
+    float:left;
+    width:60%;
+/*	min-width:100px;
+    max-width:400px; */
+    padding:inherit
+}
+
+div.ja-td3{
+    position:relative;
+    float:right;
+    width:23%;
+/*    min-width:50px;
+    max-width:200px; */
+    padding:inherit;
+    word-wrap:break-word
+}
+
+div.ja-in1{
+    clear:both;
+    float:left;
+    word-wrap:break-word;
+/*    width:30%; */
+    min-width:150px;
+    max-width:150px; 
+    padding:inherit;
+    vertical-align:top;
+}
+div.ja-in11{
+/*used for the change history only*/
+    clear:both;
+    float:left;
+    word-wrap:break-word;
+    width:100px;
+    padding:inherit;
+    vertical-align:top;
+}
+div.ja-in2{
+    position:relative;
+    float:left;
+    padding:inherit;
+    width:25px;
+    text-align:right;
+    vertical-align:top;
+}
+div.ja-in21{
+/*used for the change history only*/
+    position:relative;
+    float:left;
+    padding:inherit;
+    width:75px;
+    text-align:left;
+    vertical-align:top;
+}
+div.ja-in3{
+ /*   position:relative;*/
+    float:left;
+    padding:inherit;
+    word-wrap:break-word;
+    text-align:left;
+/*    width:60%;*/
+   min-width:280px;
+   max-width:280px;
+}
+
+/* this has no function anyway
+div.ja-td3
+p.ja-td2 {
+    content:"available"
+} */
+
+div.ja-chart {
+    width:500px;
+    height:350px;
+    padding-top:10px;
+}
+
+div.ja-floattop {
+    position:fixed;
+    right:0px;
+    top:0px;
+    width:2000px;
+    z-index:2;
+    border-top:1px solid;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px black;
+}
+div.ja-floatbottom {
+    position:fixed;
+    right:0px;
+    bottom:0px;
+    width:2000px;
+    z-index:2;
+    border-top:1px solid;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px black;
+}
+div.ja-floatl {
+    position:fixed;
+    z-index:3;
+    top:-4px;
+    right:10px;
+    background-color:white;
+    font-size:9px;
+    padding:3px;
+    height:25px;
+    border-bottom:1px solid;
+    border-right:1px solid;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px gray;
+    border-radius:5px;
+    max-width:512px;
+}
+div.ja-floatl div, div.ja-floatl p{
+    float:left;
+    z-index:inherit;
+    margin:2px;
+    position:relative;
+    padding:inherit;
+    font-size:inherit;
+}
+div.ja-floatl a {
+    font-size:inherit;
+}
+div.ja-floatl p.ja-link {
+    padding:inherit;
+    background-color:white;
+    border-radius:10px;
+    font-size:inherit;
+}
+div.ja-floatl p.ja-link:hover {
+    padding:inherit;
+    background-color:#D9D9D9;
+    box-shadow: 0px 0px 2px #222;
+    border-radius:8px;
+    font-size:inherit;
+}
+
+div.ja-floatl p.ja-selected {
+    padding:inherit;
+    background-color:#C8C8C8;
+    box-shadow: inset 0px 0px 4px #222;
+    border-radius:8px;
+    font-size:inherit;
+}
+
+/* This hides the short version of the availability statement */
+p.ja-replace {
+    display:none;
+    content:none;
+}
+
+p.ja-td {
+    display:block;
+}
+
+/* This section triggers all additional information being hidden until the user hovers over a row */
+/* start of function 
+p.ja-td2 {
+    display:none;
+    content:none;
+}
+
+div.ja-tr:hover
+p.ja-td2 {
+    display:block;
+    content:normal;
+    color: #333;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color:white;
+}
+div.ja-tr:hover
+div.ja-td3
+p.ja-replace {
+    display:none;
+    content:none;
+}
+ end of function */
+
+
+#sidenav div {
+    z-index:2;
+    position:fixed;
+    right:-3px;
+    padding:5px;
+
+    top:200px;
+    background-color:white;
+    font-size:9px;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px gray;
+    border-radius:5px;
+}
+
+#sidenav p, #sidenav a {
+    font-size:9px;
+    padding:0px;
+    margin:0px;
+}
+
+#sidenav2 {
+    z-index:2;
+    position:fixed;
+    right:-42px;
+    padding:5px;
+    top:50px;
+    width:40px;
+    background-color:white;
+    font-size:9px;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px gray;
+    border-radius:5px;
+}
+
+#sidenav2:hover {
+    z-index:2;
+    position:fixed;
+    right:-5px;
+    padding:5px;
+    top:50px;
+    width:40px;
+    background-color:white;
+    font-size:9px;
+    border-color:#D9D9D9;
+    box-shadow: 0px 0px 5px gray;
+    border-radius:5px;
+}
+#sidenav2 div.ja-pic {
+    position:absolute;
+    clear:both;
+    float:left;
+    top:50%;
+/*    vertical-align:middle; */
+    width:2px;
+    height:20px;
+    padding:0px;
+/*    background-image:url(..//Media/icon-s.jpg);*/
+    border-color:gray;
+    border-width:1px;
+/*    border-left-style:solid; */
+    box-shadow: inset 0px 0px 2px gray;
+    border-radius:0px;
+}
+
+#sidenav2 p {
+    font-size:9px;
+    padding:0px;
+    padding-left:5px;
+    margin:0px;
+}
+#sidenav2 p.decade {
+    font-size:9px;
+    font-weight:bold;
+    padding:0px;
+    padding-left:5px;
+    margin:0px;
+}
+#sidenav2 p.five {
+    font-size:9px;
+    padding:0px;
+    padding-left:7px;
+    margin:0px;
+}
+#sidenav2 p.each {
+    font-size:9px;
+    padding:0px;
+    padding-left:10px;
+    margin:0px;
+}
+
+#sidenav2 a {
+    font-size:9px;
+    padding:0px;
+    padding-left:0px;
+    margin:0px;
+}
+
+ a.ilink {
+    background-image:url(..//Media/arrow-s.png);
+    width:5px;
+    height:5px;
+    margin-left:2px;
+    padding:0px;
+    display:inline;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+/* a.ilink {
+	content:none;
+	display:none;
+}
+*/
+/* #sidenav2 div {
+    content:normal;
+    display:none;
+}
+*/
+
+/* #sidenav2:hover div {
+    content:normal;
+    visibility:visible;
+    display:block;
+}
+*/
+
+
+/*div.ja-tr a {
+	z-index:0;
+} */

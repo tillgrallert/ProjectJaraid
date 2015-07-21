@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns="http://www.tei-c.org/ns/1.0" version="2.0">
+   <channel>
+      <title>Project Jarāʾid</title>
+      <description>A Chronology of Nineteenth-Century Periodicals in Arabic (1800-1900)</description>
+      <link>http://www.zmo.de/jaraid</link>
+      <language>en-uk</language>
+      <docs>http://www.rssboard.org/rss-specification</docs>
+      <lastBuildDate>Mon, 2 Apr 2012 08:30:00 +0200</lastBuildDate>
+      <pubDate>Mon, 2 Apr 2012 08:30:00 +0200</pubDate>
+      <ttl>60</ttl>
+      <atom:link xmlns:atom="http://www.w3.org/2005/Atom"
+                 href="http://www.sitzextase.de/jaraid/RSS/rss-jaraid.xml"
+                 rel="self"
+                 type="application/rss+xml"/>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Table first converted into TEI using OxGarage
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Mon, 9 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item001</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Original TEI enhanced with semantic markup, including dates, placeName, and references to the legend
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 10 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item002</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Unified the references to "BLO = Bodleian Library, Oxford" and "Bod = Bodliean Library, Oxford" as "Bod = Bodleian Library, Oxford"
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 10 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item003</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Changed "LC" and "OB" to the commonly used "LoC" and "OIB"
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 10 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item004</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Added missing values to the list of abbreviations: DKQW, "Baghdad Univ", "CU", "DKT", "Dur", "DWQ", "Lan", "National Library of Israel", BM, Tet, Alg Lib 
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 10 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item005</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Performed some transformations with custom XSLT to improve machine-readability
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 10 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item006</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Provided xml:ids for every row, based on the position of the row in the original data as provided
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 11 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item007</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Replaced DKQW with DWKT 
+            Responsible editor: Till Grallert, Adam Mestyan, Till Grallert</description>
+         <pubDate>Wed, 18 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item008</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> finalised a first unification of personal names
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Wed, 25 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item009</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> copy-edited the text of the introduction and added a paragraph.
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 27 Apr 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item010</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added the choice tag to the abbreviations
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 10 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item011</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> marked up some missing place names
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 15 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item012</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected typos, added some data, added dots, added data, added Rana Issa
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Mon, 21 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item013</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected typos, added some data, clarified L’Oranais 
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Tue, 29 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item014</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected typos, changed Alg Lib to BnA and BM to BL 
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Wed, 30 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item015</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> deleted "Cent Lib"; replace "Lan" and "Lan Or" with "INALCO"; marked TGK and THC as deleted; marked up the last place names; found another holding institution not yet accounted for: "EN"
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 30 May 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item016</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> incorporated some last abbreviations: EN (=BnF), IE, Ind Off, and omitted Beir
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 1 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item017</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added row 844 and machine-readable dates for 1883 and 1884
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 7 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item018</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>added markup for languages other than Arabic with "lang"
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 7 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item019</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>  rewrote the introduction, corrected the bibliography, added a row and some details to others
+            Responsible editor: Till Grallert, Adam Mestyan, Till Grallert</description>
+         <pubDate>Fri, 15 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item020</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added union catalogues and did final maintenance work
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sat, 16 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item021</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> made final corrections
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sun, 17 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item022</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> made final corrections
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 22 Jun 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item023</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> edited the title cells: 126, 245, 202, 176, 230, 159, 140, 158, 368, 443, 129; corrected misspelling of Abū Naẓẓāra
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sun, 1 Jul 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item024</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added references to the al-Aqṣā collection
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 26 Jul 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item025</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> unified the abbreviations DKT and DKWT for the Dār al-Kutub al-Waṭaniyya in Tunis into DKWT
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 26 Jul 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item026</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added abbreviations for months longer then 5 letters
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 16 Aug 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item027</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> included the day and month of the first issue (cell 2) in the @when, @notBefore, and @notAfter attributes of cell 1 through XSLT conversion
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 16 Aug 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item028</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected some links to online resources
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 22 Aug 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item029</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added links to the digital collection of Abū Naẓẓāra at IMA
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 29 Aug 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item030</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added automated markup for the date of last publication (cell 3)
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sat, 1 Sep 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item031</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> deleted official paper indications and moved to comments
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Mon, 24 Sep 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item032</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added Hala Auji to contributors
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Thu, 4 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item033</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected typos
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Thu, 4 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item034</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added the corrections of TG from his email 13 September 2012
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Thu, 4 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item035</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added some corrections of HA, additions left to TG
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Fri, 5 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item036</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added some corrections of PS
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sat, 6 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item037</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added some new data from MEC
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Tue, 9 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item038</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected t1r11 based on HA
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Tue, 9 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item039</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> made some corrections to the markup, correcting minor errors introduced by the previous additions
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 10 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item040</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>added 3 periodicals to the chronology (t1r847 to t1r849), added further holding institutions (UPenn, Stan, and Col)
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 10 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item041</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>After inquiring with Philip Sadgrove, it was established that Ibrāhīm ʿAbduh is indeed not the name of a collection but points towards the source of information
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Mon, 15 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item042</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected the references to Ibrāhīm ʿAbduh based on Adam Mestyan's data
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 19 Oct 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item043</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected the markup of some persNames
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Thu, 1 Nov 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item044</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected some markup
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 21 Nov 2012 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item045</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added Rogier Visser to the contributors
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 31 Mar 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item046</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Rogier Visser
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 31 Mar 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item047</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Till Grallert
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 14 Apr 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item048</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Adam Mestyan
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 14 Apr 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item049</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> made some changes to the internal links
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 16 Apr 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item050</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added information on the Iraqi National Library provided by Adam Mestyan
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 16 Apr 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item051</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> corrected some errors introduced in the previous update, included an erroneous reference to #hBOSJ. As the xslt ingnors the del tag in cell 9 (references ot holding institutions), I finally deleted the references marked as such in May 2012, i.e. in rows t1r25, t1r339, t1r133
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Wed, 24 Apr 2013 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item052</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Adam Mestyan
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 13 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item053</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added contributor Daniel Newman
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 13 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item054</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Daniel Newman
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 13 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item055</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added corrections provided by Till Grallert
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Sun, 13 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item056</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added other corrections provided by Daniel Newman
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Mon, 14 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item057</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected some errors introduced to the xml by earlier edits
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 15 Apr 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item058</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected referrences to LaH and Mak Kull al-Lah with NEST on request of the institution itself.
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 9 May 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item059</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>added references to the Translatio digitisation project at Bonn.
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Fri, 9 May 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item060</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>add further references to the Translatio digitisation project at Bonn.
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sun, 20 Jul 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item061</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>corrected same internal references to Princeton University Library
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Sun, 20 Jul 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item062</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>Added AUB holdings to #t1r76
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Tue, 11 Nov 2014 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item063</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description> added new corrections provided by Daniel Newman
+            Responsible editor: Adam Mestyan, Till Grallert</description>
+         <pubDate>Fri, 23 Jan 2015 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item064</guid>
+      </item>
+      <item type="tei">
+         <title>Updated data</title>
+         <description>made corrections to the XML
+            Responsible editor: Till Grallert, Till Grallert</description>
+         <pubDate>Mon, 26 Jan 2015 08:30:00 +0200</pubDate>
+         <guid>http://www.zmo.de/jaraid#item065</guid>
+      </item>
+   </channel>
+</rss>

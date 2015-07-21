@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Project Jarāʾid</title>
+        <description>A Chronology of Nineteenth-Century Periodicals in Arabic (1800-1900)</description>
+        <link>http://www.zmo.de/jaraid</link>
+        <language>en-uk</language>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        <lastBuildDate>Mon, 2 Apr 2012 08:30:00 +0200</lastBuildDate>
+        <pubDate>Mon, 2 Apr 2012 08:30:00 +0200</pubDate>
+        <ttl>60</ttl>
+        <item type="official">
+            <title>website went online</title>
+            <description>Hurrah, the website finally went online!</description>
+            <pubDate>Sat, 1 Sep 2012 09:30:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item900</guid>
+        </item>
+        <item type="official">
+            <title>website updated: added rss</title>
+            <description>added an rss feed generated from the TEI XML's revisionDesc to the update information in toc2</description>
+            <pubDate>Wed, 26 Sep 2012 12:30:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item901</guid>
+        </item>
+        <item type="beta">
+            <title>website updated: added internal links</title>
+            <description>We added anchors to the indexes and provided links to these entries in the indexes in the main chronology in the form of tiny arrows behind any person, organization, ot location</description>
+            <pubDate>Sun, 30 Sep 2012 19:32:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item902</guid>
+            <link>http://www.sitzextase.de/jaraid/HTML/index2.html</link>
+        </item>
+        <item type="official">
+            <title>website updated: improved sorting</title>
+            <description>We improved sorting to include all the IJMES transliterations of Arabic words into the Latin alphabet with the diacritics following the "normal" letters; i.e. ḥ and ḫ follow immediately after h. In addition, we now ignore the Arabic definite article "Al-" preceding most newspaper titles.</description>
+            <pubDate>Sun, 30 Sep 2012 19:32:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item903</guid>
+            <link>http://www.sitzextase.de/jaraid/HTML/index2.html</link>
+        </item>
+        
+        <item type="official">
+            <title>website updated: reduced file size</title>
+            <description>To the benefit of all those dependent on slow internet connections, we reduced the size of the main html files by some 15 per cent through removing unneccessary namespace declarations</description>
+            <pubDate>Fri, 5 Oct 2012 22:00:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item905</guid>
+            <link>http://www.sitzextase.de/jaraid/HTML/index2.html</link>
+        </item>
+        <item type="beta">
+            <title>website updated: new mapping</title>
+            <description>After some study of Google's map JavaScript Api and the KML markup language, as well as some tinkering with Api calls to geonames.org, we are now able to automatically harvest the geo-location data for the all placeNames in the TEI source and thus plot them onto any geo-tagging aware map</description>
+            <pubDate>Sun, 7 Oct 2012 23:34:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item906</guid>
+            <link>http://www.sitzextase.de/jaraid/Visualization/tableMap</link>
+        </item>
+        <item type="official">
+            <title>website updated: new design and functions</title>
+            <description>Sorting of the main table can now be triggered between chronologic and alphabetical. Links between the various indexes and the main table have been implemented allowing for round trips from individual titles to publishers to another title to a location etc.</description>
+            <pubDate>Tue, 17 Apr 2014 23:39:00 +0200</pubDate>
+            <guid>http://www.zmo.de/jaraid#item907</guid>
+            <link>http://www.sitzextase.de/jaraid/Visualization/tableMap</link>
+        </item>
+    </channel>
+</rss>
