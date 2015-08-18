@@ -1,0 +1,1 @@
+This repository hosts the code for the [Project Jarāʾid website](http://www.zmo.de/jaraid). A preview is available on the repository's [GitHub page](http://tillgrallert.github.io/ProjectJaraid).
