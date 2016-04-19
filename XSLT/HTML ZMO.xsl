@@ -16,8 +16,7 @@
     <xsl:include href="HTML%20anchors%20v1b%20templates.xsl"/>
     <xsl:include href="HTML%20indexes%20v2e%20templates%20120530.xsl"/>
     <xsl:include href="HTML%20indexes%20v4b%20templates.xsl"/>
-    <xsl:include href="HTML%20toc%20v2%20templates%20120615.xsl"/>
-    <xsl:include href="HTML%20toc%20v3a1%20templates.xsl"/>
+    <xsl:include href="HTML%20toc%20templates.xsl"/>
     <xsl:include href="HTML%20tables%20v1a%20templates%20120426.xsl"/>
     <xsl:include href="HTML%20tables%20v4b%20templates.xsl"/>
     <xsl:include href="HTML%20tei%20v1b%20templates.xsl"/> <!-- tei v2 already integrates the internal links -->
