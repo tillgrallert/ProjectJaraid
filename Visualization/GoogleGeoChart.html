@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>
+      Publication places of Arabic periodicals (1800-1900)
+    </title>
+	<link rel="stylesheet" href="..//CSS/zmo.css" type="text/css"/>
+    <link rel="stylesheet" href="..//CSS/zmo_jaraid.css" type="text/css"/>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1');
+    </script>
+    <script type="text/javascript" src="..//Visualization/GoogleGeoData.js"></script>
+    <script type="text/javascript">
+      function drawVisualization() {	      
+
+      	//var sourceURL = "http://docs.google.com/spreadsheet/tq?key=0ApthkqvPCn1mdGdTajA4amdZQTl1Xzc3N21xY3ExdUE&transpose=0&headers=0&range=D1%3AE74&gid=0&pub=1";
+        var wrapper = new google.visualization.ChartWrapper({
+          //dataSourceUrl: sourceURL,
+          dataTable: tData,//this calls the data from the GoogleGeoData.js
+          chartType: 'GeoChart',
+          options: {
+          		'displayMode': 'markers',
+          		'markerOpacity':'0.7',
+          		'colorAxis': {'values':['1','10','200'],'colors': ['#003366','green', 'orange']},
+          		'sizeAxis':{'maxValue':'400','minSize':'3','maxSize':'30'},
+          		'region':'world', //015 for North Africa, 145 for the ME, world for the world
+          		'resolution':'countries',
+          		'keepAspectRatio':'true',
+          		'enableRegionInteractivity':'false',
+          		'magnifyingGlass': {'enable': 'true', 'zoomFactor': '8.0'}
+          		},
+          	/* displayMode can be set to regions for countries, markers for dots */
+          containerId: 'dChart'
+        });
+          wrapper.draw();
+      }
+
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  </head>
+  <body>
+	<div>
+		<h2>Map of Locations</h2>    
+    </div>
+    <div id="dChart" class="ja-chart"><p>You need to enable JavaScript to see this map</p></div>
+    <div style="position:fixed;bottom:5px;">
+    	<p style="text-align:center;">This map uses Google's ChartWrapper to map the locations of publication extracted from the XML source as a JSON file.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>
+      Publication places of Arabic periodicals (1800-1900)
+    </title>
+	<link rel="stylesheet" href="..//CSS/zmo.css" type="text/css"/>
+    <link rel="stylesheet" href="..//CSS/zmo_jaraid.css" type="text/css"/>
+   <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" />
+    
+    <link href="cities.js" type="application/json" rel="exhibit-data" />
+    <link rel="exhibit-extension" type="text/javascript" href="http://api.simile-widgets.org/exhibit/3.0.0/extensions/map/map-extension.js" />
+    <script type="text/javascript" src="http://api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js"></script>
+  </head>
+  <body>
+	<div>
+		<h2>Map of Locations</h2>    
+    </div>
+    <div id="content" style="margin:0px;padding-left:0px;width:98%;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:12;">
+      <div ex:role="coder" ex:coderClass="ColorGradient" id="events-color"
+          ex:gradientPoints="1,#003366; 50,#008000; 150,#FFA500; 400,#FFA500"></div>
+      <div ex:role="coder" ex:coderClass="SizeGradient" id="events-size"
+           ex:gradientPoints="1, 10; 10,30; 100,60; 400,90"></div>
+      <div ex:role="coder" ex:coderClass="Icon" id="events-icon"></div>
+
+      <div><span ex:role="facet" ex:facetClass="TextSearch"></span></div>
+
+      <div ex:role="viewPanel">
+        <div ex:role="view"
+                            ex:viewClass="Map"
+                            ex:label="label"
+                            ex:latlng=".latlng"
+                            ex:sizeKey=".periodicals"
+                            ex:sizeCoder="events-size"
+                            ex:colorKey=".periodicals"
+                            ex:colorCoder="events-color"
+                            ex:shape="circle"
+                            ex:center="33.509166, 36.310154"
+                            ex:zoom="3"
+                            ex:mapHeight="500"
+                            ex:showHeader="false"
+                            >
+          <div class="map-lens" ex:role="lens" style="display: none;">
+            <div><b ex:content=".label"></b></div>
+            <div>No of periodicals: <span ex:content=".periodicals"></span>.</div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+    
+    
+    <div style="position:relative;bottom:5px;">
+    	<p style="text-align:center;">This map uses the <a href="http://www.simile-widgets.org/exhibit3/">SIMILE Exhibit 3.0 framework</a> provided by the MIT</p>
+    </div>
+  </body>
+</html>
