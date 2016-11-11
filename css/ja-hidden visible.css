@@ -1,0 +1,28 @@
+/*This CSS triggers hidden sections in the navigation pane of the Jaraid website*/
+.ja-hidden {
+    display:block;
+    content:normal;
+    padding:3px;
+    background-color:#C8C8C8;
+    box-shadow: inset 0px 0px 4px #222;
+    border-radius:5px;
+}
+
+span.ja-hidden {
+display:none;
+content:none
+}
+
+span.ja-intlink:hover
+span.ja-hidden {
+    display:block;
+    content:normal;
+    padding: 4px;
+    color: #333;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-color:white;
+    box-shadow: 0px 0px 4px #222;
+    border-radius:0px;
+}
