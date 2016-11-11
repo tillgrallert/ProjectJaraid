@@ -14,7 +14,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="text()">
+    <xsl:template match="text()" mode="m_plain-text">
         <xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
     
@@ -111,22 +111,40 @@
     <!-- titles -->
     <xsl:template match="tei:cell[@n=4]/tei:name" mode="m_bibl">
         <title level="j" xml:lang="ar-Latn-x-ijmes">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode="m_plain-text"/>
         </title>
     </xsl:template>
     <xsl:template match="tei:cell[@n=5]/tei:placeName" mode="m_bibl">
         <pubPlace>
             <xsl:copy>
-                <xsl:attribute name="xml:lang" select="'en'"/>
-                <xsl:apply-templates/>
+                <xsl:attribute name="xml:lang">
+                <xsl:choose>
+                    <xsl:when test="@xml:lang">
+                        <xsl:value-of select="@xml:lang"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>en</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+                </xsl:attribute>
+                <xsl:apply-templates mode="m_plain-text"/>
             </xsl:copy>
         </pubPlace>
     </xsl:template>
     <xsl:template match="tei:cell[@n=6]/tei:orgName" mode="m_bibl">
         <publisher>
             <xsl:copy>
-                <xsl:attribute name="xml:lang" select="'en'"/>
-                <xsl:apply-templates/>
+                <xsl:attribute name="xml:lang">
+                    <xsl:choose>
+                        <xsl:when test="@xml:lang">
+                            <xsl:value-of select="@xml:lang"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>en</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+                <xsl:apply-templates mode="m_plain-text"/>
             </xsl:copy>
         </publisher>
     </xsl:template>
@@ -134,7 +152,7 @@
         <editor>
             <xsl:copy>
                 <xsl:attribute name="xml:lang" select="'ar-Latn-x-ijmes'"/>
-                <xsl:apply-templates/>
+                <xsl:apply-templates mode="m_plain-text"/>
             </xsl:copy>
         </editor>
     </xsl:template>
