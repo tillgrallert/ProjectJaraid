@@ -25,7 +25,7 @@
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
             <cell n="10">
-                <biblStruct>
+                <biblStruct xml:id="biblStruct_{generate-id()}">
                     <monogr>
                         <!-- title(s) -->
                         <xsl:apply-templates select="child::tei:cell[@n=4]/tei:name" mode="m_bibl"/>
@@ -41,6 +41,53 @@
                             <xsl:apply-templates select="child::tei:cell[@n=3]/tei:date" mode="m_bibl"/>
                         </imprint>
                     </monogr>
+                    <!-- record languages in an ad-hoc note and transform them to BCP47-->
+                    <note type="langUsage">
+                       <xsl:for-each select="descendant::tei:lang">
+                           <xsl:copy>
+                               <xsl:choose>
+                                   <xsl:when test="text() = 'Armenian'">
+                                       <xsl:text>hy</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'colloquial Arabic'">
+                                       <!-- all periodicals marked as such are from Egypt. Thus, we use arz -->
+                                       <xsl:text>arz</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Coptic'">
+                                       <xsl:text>cop</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'English'">
+                                       <xsl:text>en</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'French'">
+                                       <xsl:text>fr</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Greek'">
+                                       <xsl:text>gr</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Hebrew'">
+                                       <xsl:text>he</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Italian'">
+                                       <xsl:text>it</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Judeo-Arabic'">
+                                       <xsl:text>jrb</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Ottoman Turkish'">
+                                       <xsl:text>ota</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Persian'">
+                                       <xsl:text>fa</xsl:text>
+                                   </xsl:when>
+                                   <xsl:when test="text() = 'Portuguese'">
+                                       <xsl:text>pt</xsl:text>
+                                   </xsl:when>
+                                   
+                               </xsl:choose>
+                           </xsl:copy>
+                       </xsl:for-each>
+                    </note>
                 </biblStruct>
             </cell>
         </xsl:copy>
